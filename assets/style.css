@@ -73,11 +73,18 @@ header a {
   }
 
   /* MAIN content styling */ 
-  .main-content {
-      display: flex;
-      flex: wrap;
-      margin: 15px 200px;
+
+  .main-content-ab {
+      display: inline-flex;
+      margin: 15px 100px 15px 200px;
       padding: 20px;
+  }
+  .main-content {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 1200px;
+      margin: 15px 100px 15px 200px;
+      justify-content: space-between;
       }
 
     .content-header {
@@ -90,4 +97,27 @@ header a {
     .content-sub {
         margin-top: 15px;
     }
+
+    .run-buddy-img {
+        width: 1000px;
+    }
+    
+    .project-tiles {
+        margin-left: 100px;
+    }
+
+    /*Contact Me Styling*/
+
+    .contact-me {
+        display: inline-flex;
+        width: 1200px;
+        margin: 15px 100px 15px 200px;
+        justify-content: space-between;
+    }
+
+
+
+ 
+
+
 
