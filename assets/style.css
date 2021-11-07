@@ -73,7 +73,21 @@ header a {
   }
 
   /* MAIN content styling */ 
-  .content-header h2 {
-      display:inline-flex;
+  .main-content {
+      display: flex;
       flex: wrap;
-  }
+      margin: 15px 200px;
+      padding: 20px;
+      }
+
+    .content-header {
+        margin: 15px;
+        padding-right: 10px;
+        border-right: 3px solid #024e76;
+        font-size: 38px;
+    }
+
+    .content-sub {
+        margin-top: 15px;
+    }
+
